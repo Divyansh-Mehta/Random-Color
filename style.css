@@ -1,0 +1,22 @@
+div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+button {
+    border: 0.001em solid black;
+    border-radius: 1em;
+    /* padding: 0.5em; */
+    
+}
+
+button:active{
+    background-color: gainsboro;
+}
+
+button:hover{
+    cursor: pointer;
+}
